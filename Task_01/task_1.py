@@ -5,4 +5,9 @@
 # - 7 -> да
 # - 1 -> нет
 
+user_number = int(input('Введите цифру, обозначающую день недели: '))
 
+if user_number==6 or user_number==7:
+    print('Да')
+else:
+    print('Нет')
